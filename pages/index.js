@@ -372,9 +372,11 @@ export default function HomePage() {
             </div>
           </div>
           <div className="features-grid">
-            {featureItems.map((item) => (
+            {featureItems.map((item, index) => (
               <div className="feature-card" key={item.title}>
-                <div className="feature-icon">{item.icon}</div>
+                <div className={`feature-icon feature-icon-${index + 1}`}>
+                  {item.icon}
+                </div>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </div>
@@ -789,6 +791,146 @@ export default function HomePage() {
         </div>
       </section>
       </div>
+
+      <section className="section model-diff">
+        <div className="container">
+          <div className="section-heading centered">
+            <h2>Why Burrow Base Works Differently</h2>
+            <p className="section-lead">
+              Burrow Base isn&apos;t another tool to manage. It&apos;s a system that&apos;s installed,
+              configured, and quietly runs in the background.
+            </p>
+          </div>
+          <div className="model-diff-grid">
+            {[
+              [
+                "Installed, Not DIY",
+                "You don’t build workflows or connect tools. We install and configure the system around how your business actually runs.",
+                (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M4 12h16M12 4v16"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                    />
+                    <circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" strokeWidth="1.4" />
+                  </svg>
+                ),
+              ],
+              [
+                "One System, Multiple Layers",
+                "Start with one layer or add more over time. Everything runs inside the same system—no rebuilds or migrations.",
+                (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M6 8h12M6 12h12M6 16h12"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                    />
+                    <path
+                      d="M8 6h8v12H8z"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.2"
+                    />
+                  </svg>
+                ),
+              ],
+              [
+                "Quiet by Design",
+                "If everything is handled, you hear nothing. You’re notified only when a human decision is required.",
+                (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M6 8c0 3.3 0 4.7 6 9 6-4.3 6-5.7 6-9a6 6 0 0 0-12 0Z"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                    />
+                  </svg>
+                ),
+              ],
+              [
+                "Built for Service Businesses",
+                "Designed specifically for contractors and service businesses—not generic startups or online brands.",
+                (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M4 16l4-8h8l4 8"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M7 16v4M17 16v4M9 20h6"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.4"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                ),
+              ],
+              [
+                "No Software to Learn",
+                "There’s nothing to configure or manage. You just respond when needed while everything else runs automatically.",
+                (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M6 7h12v10H6z"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                    />
+                    <path
+                      d="M9 10h6M9 13h6"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                ),
+              ],
+              [
+                "Grows Without Rebuilding",
+                "As your business grows, the system expands with it—without changing how you operate day to day.",
+                (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M6 16l4-4 3 3 5-6"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M5 19h14"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.4"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                ),
+              ],
+            ].map(([title, body, icon]) => (
+              <div className="model-diff-card" key={title}>
+                <div className="model-diff-icon">{icon}</div>
+                <h3>{title}</h3>
+                <p>{body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <section className="section muted" id="how-it-works">
         <div className="container">
