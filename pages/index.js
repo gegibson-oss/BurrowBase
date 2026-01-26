@@ -159,7 +159,7 @@ export default function HomePage() {
       );
 
       observer.observe(root);
-      const startDelay = window.setTimeout(init, 800);
+      const startDelay = window.setTimeout(init, 120);
 
       return () => {
         window.clearTimeout(startDelay);
@@ -183,11 +183,11 @@ export default function HomePage() {
         const bubble3 = root.querySelector("#frontdesk-b3");
         const booking = root.querySelector("#frontdesk-booking");
 
-        schedule(() => missed?.classList.add("show"), 700);
-        schedule(() => bubble1?.classList.add("show"), 2300);
-        schedule(() => bubble2?.classList.add("show"), 3800);
-        schedule(() => bubble3?.classList.add("show"), 5400);
-        schedule(() => booking?.classList.add("show"), 7200);
+        schedule(() => missed?.classList.add("show"), 180);
+        schedule(() => bubble1?.classList.add("show"), 900);
+        schedule(() => bubble2?.classList.add("show"), 1700);
+        schedule(() => bubble3?.classList.add("show"), 2500);
+        schedule(() => booking?.classList.add("show"), 3400);
       }),
       setupDemo(".bb-sched", 13000, (root, schedule) => {
         root.querySelectorAll(".show").forEach((el) => {
@@ -204,10 +204,10 @@ export default function HomePage() {
           root.querySelector("#sched-p2"),
         ];
 
-        let delay = 700;
+        let delay = 180;
         sequence.forEach((item) => {
           schedule(() => item?.classList.add("show"), delay);
-          delay += 1400;
+          delay += 700;
         });
       }),
       setupDemo(".bb-jobflow", 9000, (root, schedule) => {
@@ -224,23 +224,23 @@ export default function HomePage() {
 
         s1?.classList.add("active");
 
-        schedule(() => card?.classList.add("show"), 700);
+        schedule(() => card?.classList.add("show"), 180);
         schedule(() => {
           s1?.classList.replace("active", "done");
           s2?.classList.add("active");
-        }, 2000);
+        }, 1100);
         schedule(() => {
           s2?.classList.replace("active", "done");
           s3?.classList.add("active");
-        }, 3300);
+        }, 1900);
         schedule(() => {
           s3?.classList.replace("active", "done");
           s4?.classList.add("active");
           handoff?.classList.add("show");
-        }, 4600);
+        }, 2700);
         schedule(() => {
           s4?.classList.replace("active", "done");
-        }, 6000);
+        }, 3400);
       }),
       setupDemo(".bb-payments", 9000, (root, schedule) => {
         root.querySelectorAll(".active, .done, .show").forEach((el) => {
@@ -258,22 +258,22 @@ export default function HomePage() {
 
         f1?.classList.add("active");
 
-        schedule(() => invoice?.classList.add("show"), 700);
+        schedule(() => invoice?.classList.add("show"), 180);
         schedule(() => {
           f1?.classList.replace("active", "done");
           f2?.classList.add("active");
           status1?.classList.add("active");
-        }, 2000);
+        }, 1100);
         schedule(() => {
           f2?.classList.replace("active", "done");
           f3?.classList.add("active");
           status2?.classList.add("active");
-        }, 3300);
+        }, 1900);
         schedule(() => {
           status3?.classList.add("active");
           snapshot?.classList.add("show");
           f3?.classList.replace("active", "done");
-        }, 4800);
+        }, 2700);
       }),
       setupDemo(".bb-reputation", 9000, (root, schedule) => {
         root.querySelectorAll(".show").forEach((el) => {
@@ -286,11 +286,11 @@ export default function HomePage() {
         const alert = root.querySelector("#reputation-alert");
         const owner = root.querySelector("#reputation-owner");
 
-        schedule(() => good?.classList.add("show"), 700);
-        schedule(() => review?.classList.add("show"), 1700);
-        schedule(() => bad?.classList.add("show"), 2800);
-        schedule(() => alert?.classList.add("show"), 3800);
-        schedule(() => owner?.classList.add("show"), 5200);
+        schedule(() => good?.classList.add("show"), 180);
+        schedule(() => review?.classList.add("show"), 900);
+        schedule(() => bad?.classList.add("show"), 1600);
+        schedule(() => alert?.classList.add("show"), 2300);
+        schedule(() => owner?.classList.add("show"), 3000);
       }),
     ].filter(Boolean);
 
@@ -383,6 +383,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="demo-band">
       <section className="section">
         <div className="container split split-top">
           <div className="demo-copy demo-copy-centered">
@@ -787,6 +788,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </div>
 
       <section className="section muted" id="how-it-works">
         <div className="container">

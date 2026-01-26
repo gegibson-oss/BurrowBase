@@ -49,6 +49,7 @@
   --shadow: 0 40px 110px rgba(0, 0, 0, 0.6);
   --header-height: 96px;
   --hero-overlay-opacity: 0.26;
+  --bb-demo-band-bg-h: 5200px;
 }
 
 * {
@@ -462,42 +463,131 @@ p {
 }
 
 .features-overview {
-  background:
-    radial-gradient(circle at 18% 10%, rgba(139, 111, 78, 0.32), transparent 52%),
-    radial-gradient(circle at 82% 12%, rgba(255, 166, 46, 0.14), transparent 56%),
-    linear-gradient(180deg, rgba(20, 20, 23, 0.25) 0%, rgba(11, 11, 13, 0.92) 100%),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='140' height='140' filter='url(%23n)' opacity='0.08'/></svg>");
-  background-size: auto, auto, auto, 180px 180px;
-  background-color: rgba(11, 11, 13, 0.9);
+  /* Rocky ridgeline inset transition lives on the homepage (Hero -> Features). */
+  --ridge-h: 108px;
+  --ridge-next-h: 104px;
+  --ridge-blend-h: 240px;
+  margin-top: calc(-1 * var(--ridge-h));
+  padding-top: calc(72px + var(--ridge-h));
+  background: linear-gradient(180deg, rgba(20, 20, 23, 0.92) 0%, rgba(11, 11, 13, 0.92) 100%);
   color: var(--color-ink);
   position: relative;
   overflow: hidden;
+  -webkit-clip-path: polygon(
+    0 var(--ridge-h),
+    6% calc(var(--ridge-h) - 18px),
+    14% calc(var(--ridge-h) - 34px),
+    24% calc(var(--ridge-h) - 22px),
+    36% calc(var(--ridge-h) - 48px),
+    48% calc(var(--ridge-h) - 28px),
+    60% calc(var(--ridge-h) - 58px),
+    72% calc(var(--ridge-h) - 30px),
+    84% calc(var(--ridge-h) - 44px),
+    94% calc(var(--ridge-h) - 20px),
+    100% var(--ridge-h),
+    100% 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 var(--ridge-h),
+    6% calc(var(--ridge-h) - 18px),
+    14% calc(var(--ridge-h) - 34px),
+    24% calc(var(--ridge-h) - 22px),
+    36% calc(var(--ridge-h) - 48px),
+    48% calc(var(--ridge-h) - 28px),
+    60% calc(var(--ridge-h) - 58px),
+    72% calc(var(--ridge-h) - 30px),
+    84% calc(var(--ridge-h) - 44px),
+    94% calc(var(--ridge-h) - 20px),
+    100% var(--ridge-h),
+    100% 100%,
+    0 100%
+  );
 }
 
-.page.homepage .features-overview::before {
+.page.homepage .features-overview::after {
+  /* Blend the next-section backdrop upward so the ridgeline reads as carved, not overlaid. */
   content: "";
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
-  height: 30px;
+  bottom: 0;
+  height: var(--ridge-blend-h);
   pointer-events: none;
   z-index: 0;
-  background:
-    radial-gradient(120% 120% at 22% 0%, rgba(11, 11, 13, 0.22), rgba(11, 11, 13, 0) 72%),
-    radial-gradient(120% 120% at 78% 0%, rgba(11, 11, 13, 0.18), rgba(11, 11, 13, 0) 70%),
-    linear-gradient(
-      180deg,
-      rgba(11, 11, 13, 0.82) 0%,
-      rgba(11, 11, 13, 0.52) 38%,
-      rgba(11, 11, 13, 0.18) 72%,
-      rgba(11, 11, 13, 0) 100%
-    );
+  background: linear-gradient(
+    180deg,
+    rgba(139, 111, 78, 0.22) 0%,
+    rgba(20, 20, 23, 0.42) 22%,
+    rgba(11, 11, 13, 0.95) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% var(--bb-demo-band-bg-h);
+  /* Align the gradient so the seam (top of demo band) matches exactly. */
+  background-position: center calc(-1 * (var(--ridge-blend-h) - var(--ridge-next-h)));
+  background-color: rgba(11, 11, 13, 0.95);
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 58%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 58%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .page.homepage .features-overview > .container {
   position: relative;
   z-index: 1;
+}
+
+.page.homepage .features-overview + .demo-band {
+  /* Continuous demo backdrop (Digital Front Desk -> Reputation) with ridgeline inset at the top edge. */
+  --ridge-h: 104px;
+  margin-top: calc(-1 * var(--ridge-h));
+  padding-top: var(--ridge-h);
+  background: linear-gradient(
+    180deg,
+    rgba(139, 111, 78, 0.22) 0%,
+    rgba(20, 20, 23, 0.42) 22%,
+    rgba(11, 11, 13, 0.95) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% var(--bb-demo-band-bg-h);
+  background-position: top center;
+  background-color: rgba(11, 11, 13, 0.95);
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(
+    0 var(--ridge-h),
+    10% calc(var(--ridge-h) - 22px),
+    22% calc(var(--ridge-h) - 42px),
+    34% calc(var(--ridge-h) - 18px),
+    50% calc(var(--ridge-h) - 56px),
+    66% calc(var(--ridge-h) - 26px),
+    78% calc(var(--ridge-h) - 48px),
+    90% calc(var(--ridge-h) - 20px),
+    100% var(--ridge-h),
+    100% 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 var(--ridge-h),
+    10% calc(var(--ridge-h) - 22px),
+    22% calc(var(--ridge-h) - 42px),
+    34% calc(var(--ridge-h) - 18px),
+    50% calc(var(--ridge-h) - 56px),
+    66% calc(var(--ridge-h) - 26px),
+    78% calc(var(--ridge-h) - 48px),
+    90% calc(var(--ridge-h) - 20px),
+    100% var(--ridge-h),
+    100% 100%,
+    0 100%
+  );
 }
 
 .features-overview h2,
