@@ -56,26 +56,36 @@ export default function Layout({ children }) {
       <main>{children}</main>
       <footer className="site-footer">
         <div className="container footer-inner">
-          <p className="footer-line">
-            Calm operations for businesses that serve real customers.
-          </p>
-          <div className="footer-links">
-            <Link href="/reviews">Automated Reviews</Link>
-            <Link href="/digital-operations-manager">
-              {"Digital Operations Manager"}
+          <div className="footer-brand">
+            <Link href="/" className="footer-logo" aria-label="Burrow Base">
+              <img src="/logo.png" alt="" className="footer-logo-image" />
             </Link>
-            <Link href="/pricing">Pricing</Link>
-            <Link href="/how-it-works">How It Works</Link>
-            <a href="https://app.burrowbase.com" rel="noreferrer">
-              Login
-            </a>
-            <Link href="/start">Start Free</Link>
+            <p className="footer-line">
+              Run your business. Not the office.
+            </p>
           </div>
-          <div className="footer-meta">
-            <span>Contact: contact@burrowbase.com</span>
-            <div className="footer-legal">
+          <div className="footer-columns">
+            <div className="footer-col">
+              <p className="footer-title">Products</p>
+              <Link href="/reviews">Automated Reviews</Link>
+              <Link href="/digital-operations-manager">
+                {"Digital Operations Manager"}
+              </Link>
+            </div>
+            <div className="footer-col">
+              <p className="footer-title">Company</p>
+              <Link href="/how-it-works">How It Works</Link>
+              <Link href="/pricing">Pricing</Link>
+              <Link href="/contact">Contact</Link>
               <Link href="/privacy">Privacy</Link>
               <Link href="/terms">Terms</Link>
+            </div>
+            <div className="footer-col">
+              <p className="footer-title">Start</p>
+              <Link href="/start">Start Free</Link>
+              <a href="https://app.burrowbase.com" rel="noreferrer">
+                Login
+              </a>
             </div>
           </div>
         </div>

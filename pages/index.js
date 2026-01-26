@@ -1017,7 +1017,7 @@ export default function HomePage() {
       <section className="section cta-block">
         <div className="container">
           <h2>
-            Calm operations for businesses that serve{" "}
+            Digital operations manager for businesses that serve{" "}
             <span className="cta-accent">real customers</span>.
           </h2>
           <div className="cta-row">
