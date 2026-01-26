@@ -798,7 +798,7 @@ export default function HomePage() {
             <h2>Why Burrow Base Works Differently</h2>
             <p className="section-lead">
               Burrow Base isn&apos;t another tool to manage. It&apos;s a system that&apos;s installed,
-              configured, and quietly runs in the background.
+              configured, and runs in the background.
             </p>
           </div>
           <div className="model-diff-grid">
@@ -936,14 +936,27 @@ export default function HomePage() {
         <div className="container">
           <div className="section-heading centered">
             <h2>How It Works</h2>
-            <p className="section-lead">Certainty, not complexity.</p>
+            <p className="section-lead">
+              Certainty, not complexity. Everything is installed for you.
+            </p>
           </div>
           <div className="step-grid">
             {[
-              ["1", "Answer setup questions", "2-3 minutes to tell us about your business."],
-              ["2", "We install everything", "Configuration, integrations, and testing."],
-              ["3", "Go live immediately", "Calls and email start working right away."],
-              ["4", "Texting activates", "After carrier approval (usually 24-48 hours)."],
+              [
+                "1",
+                "We learn how your business runs",
+                "Answer a few setup questions about your services, hours, and preferences. No technical setup required.",
+              ],
+              [
+                "2",
+                "We install and configure everything",
+                "We build the system, connect what’s needed, and test it end-to-end. You don’t touch workflows or settings.",
+              ],
+              [
+                "3",
+                "You go live",
+                "Calls, messages, bookings, payments, and reviews begin working automatically. You’re notified only when needed.",
+              ],
             ].map(([number, title, description]) => (
               <div className="step-card" key={title}>
                 <div className="step-number">{number}</div>
@@ -1001,28 +1014,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <h2>A Simple System. Installed for You.</h2>
-          <div className="section-intro">
-            <p>Burrow Base isn&apos;t another tool to manage.</p>
-            <p>It quietly handles:</p>
-            <ul className="simple-list">
-              <li>Leads</li>
-              <li>Scheduling</li>
-              <li>Customer communication</li>
-              <li>Payments</li>
-              <li>Reviews</li>
-            </ul>
-            <p>So you can focus on the work -- not the office.</p>
-            <p>Start with one layer. Expand when you&apos;re ready.</p>
-          </div>
-        </div>
-      </section>
-
       <section className="section cta-block">
         <div className="container">
-          <h2>Calm operations for businesses that serve real customers.</h2>
+          <h2>
+            Calm operations for businesses that serve{" "}
+            <span className="cta-accent">real customers</span>.
+          </h2>
           <div className="cta-row">
             <Link href="/start" className="button button-primary">
               Start free
