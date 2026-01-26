@@ -1,0 +1,24 @@
+Update the site navigation and product framing as follows:
+
+Navigation:
+- Remove "Home" from the nav
+- Remove "Apply" as a standalone nav item
+- Add a top-level "Product" dropdown with:
+  - Automated Reviews → /reviews
+  - Digital Operations Manager™ → /digital-operations-manager
+- Keep "Pricing" as a top-level item
+- Add "How It Works" linking to /how-it-works
+- Keep "Login" as a top-level item
+
+Right-side CTAs:
+- Primary button: "Start Free" → /start
+- Secondary text link: "Apply" → /apply
+
+Important framing rules:
+- Digital Operations Manager™ is a software product + managed service, NOT a job or position
+- The /digital-operations-manager page should describe the product, outcomes, and who it’s for
+- The "Apply" flow is a qualification + purchase step, not a job application
+- Keep the existing Apply checkout/payment link intact
+- Do not use employment language (job, role, position, hiring, candidate)
+
+Do not change page content yet beyond navigation labe corrections.

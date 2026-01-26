@@ -1,0 +1,378 @@
+# Burrow Base — Homepage Copy Instructions
+
+## Purpose
+This document defines the exact copy structure, tone, and messaging for the Burrow Base homepage.
+
+Burrow Base is:
+- An installed digital operations manager
+- Not software
+- Not a DIY tool
+- Not a website builder
+
+Language must stay calm, minimal, and operational.
+
+Never use ™ anywhere on the site.
+
+---
+
+## GLOBAL COPY RULES (DO NOT BREAK)
+
+- Simple sentences
+- No hype
+- No exaggerated claims
+- No buzzwords
+- No “AI-powered” language
+- No feature dumping
+- Focus on outcomes, not tools
+- Assume the reader is busy and skeptical
+
+Avoid words like:
+“Revolutionary”, “All-in-one”, “Game-changing”, “Scale fast”, “Crush”
+
+Prefer:
+“Handled automatically”, “Runs quietly”, “No action required”
+
+---
+
+## SECTION ORDER (LOCKED)
+
+1. Hero
+2. Who We Help
+3. Digital Front Desk
+4. Guarded Scheduling
+5. Job Flow & Handoff
+6. Payments & Follow-Up
+7. Reputation & Owner Alerts
+8. How It All Fits Together
+9. Primary Call to Action
+
+---
+
+## 1. HERO SECTION
+
+### Eyebrow
+For contractors and service businesses
+
+### Headline
+Run your service business without running the office
+
+### Subheadline
+Burrow Base installs a digital operations manager that handles leads, scheduling, customer communication, payments, and reviews — automatically.
+
+### Primary CTA
+See how it works
+
+### Secondary CTA (optional)
+Get a demo
+
+### Trust Line
+$297/month · No contracts · Cancel anytime
+
+### Visual Direction (not copy)
+- Clean background
+- No photography
+- One phone visual only
+- No callouts or arrows
+
+---
+
+## 2. WHO WE HELP
+
+### Section Title
+Who We Help
+
+### Intro Copy
+Burrow Base is built for contractors and service businesses that want their day-to-day operations handled without adding staff or juggling tools.
+
+If your business answers calls, schedules jobs, sends invoices, and depends on reviews — this is for you.
+
+### Cards
+
+**General Contractors**  
+Keep projects moving without chasing calls, follow-ups, or payments.
+
+**Remodelers**  
+Protect your schedule, handle inquiries automatically, and stay focused on the work.
+
+**Service Businesses**  
+HVAC, plumbing, electrical, cleaning, pressure washing, and more — where missed calls mean lost jobs.
+
+### Footer Line
+Start with one system. Expand only when you need it.
+
+---
+
+## 3. DIGITAL FRONT DESK
+
+### Section Title
+Digital Front Desk
+
+### Lead Line
+Never miss a lead again.
+
+### Body Copy
+
+**Instant response, every time**  
+When a call, text, or form comes in, the system responds automatically and keeps the conversation moving.
+
+**Leads handled while you’re working**  
+On a job site, driving, or with a customer — incoming inquiries are acknowledged and guided forward.
+
+**A calm, organized inbox**  
+No call anxiety. No message pileups. Conversations stay clean and tracked.
+
+**This replaces**  
+Manually returning missed calls and hoping the lead didn’t move on.
+
+---
+
+## 4. GUARDED SCHEDULING
+
+### Section Title
+Guarded Scheduling
+
+### Lead Line
+Your calendar, protected by rules.
+
+### Body Copy
+
+**Built-in buffers and limits**  
+Jobs are spaced properly. No double bookings. No impossible days.
+
+**Automatic confirmations and reminders**  
+Customers know exactly when you’re coming.
+
+**Changes handled automatically**  
+Reschedules and updates happen without back-and-forth.
+
+**This replaces**  
+Constant calendar checking and schedule chaos.
+
+---
+
+## 5. JOB FLOW & HANDOFF
+
+### Section Title
+Job Flow & Handoff
+
+### Lead Line
+Every job moves forward without friction.
+
+### Body Copy
+
+**Clear job stages**  
+Leads, booked jobs, active work, and completed jobs are always visible.
+
+**Automatic technician handoff**  
+Job details, timing, and notes are delivered automatically.
+
+**Owner stays out of the middle**  
+Techs know what to do without asking.
+
+**This replaces**  
+Acting as dispatcher and repeating job details.
+
+---
+
+## 6. PAYMENTS & FOLLOW-UP
+
+### Section Title
+Payments & Follow-Up
+
+### Lead Line
+Get paid without chasing.
+
+### Body Copy
+
+**Invoices sent automatically**  
+When the job is complete, the invoice goes out.
+
+**Friendly payment reminders**  
+Unpaid invoices follow up on their own.
+
+**Clear visibility**  
+Paid, unpaid, and overdue amounts at a glance.
+
+**This replaces**  
+Late invoices and awkward reminders.
+
+---
+
+## 7. REPUTATION & OWNER ALERTS
+
+### Section Title
+Reputation & Owner Alerts
+
+### Lead Line
+You’re notified only when it matters.
+
+### Body Copy
+
+**Automatic review requests**  
+Happy customers are prompted without you asking.
+
+**Private issue detection**  
+Problems surface internally before going public.
+
+**Exception-only alerts**  
+If everything is handled, you hear nothing.
+
+**This replaces**  
+Manually asking for reviews and surprise bad feedback.
+
+---
+
+## 8. HOW IT ALL FITS TOGETHER
+
+### Section Title
+A Simple System. Installed for You.
+
+### Body Copy
+Burrow Base isn’t another tool to manage.
+
+It quietly handles:
+- Leads  
+- Scheduling  
+- Customer communication  
+- Payments  
+- Reviews  
+
+So you can focus on the work — not the office.
+
+Start with one layer. Expand when you’re ready.
+
+---
+
+## 9. PRIMARY CALL TO ACTION
+
+### Headline
+Calm operations for businesses that serve real customers.
+
+### CTA
+Start free  
+or  
+See how it works
+
+---
+
+## FINAL CHECKLIST
+
+Before publishing:
+- No ™ anywhere
+- No feature lists in hero
+- No tool language
+- All phone visuals share the same background style
+- Tone feels calm, not salesy
+
+If it feels impressive, it’s wrong.
+If it feels obvious, it’s right.
+
+The cell phone demo should be update to this " # Burrow Base — Homepage Copy + Phone Demo Instructions
+
+## PURPOSE
+Defines homepage copy AND the unified phone visual system.
+
+All phone demos must:
+- Share the same shell
+- Share the same screen background
+- Differ only in content + animation
+
+Never use ™ anywhere.
+
+---
+
+## GLOBAL VISUAL RULES (PHONE DEMOS)
+
+- No pure black backgrounds
+- Soft depth, matte finish
+- Subtle gradient only
+- Calm, studio-lit feel
+- No glow, no neon, no effects
+
+---
+
+## UNIFIED PHONE SHELL (USE EVERYWHERE)
+
+### Replace all `.bb-phone`, `.bb-screen`, `.bb-notch`, and shadow styles with this.
+
+```css
+:root{
+  --frameTop:#181a1f;
+  --frameBot:#0e0f13;
+
+  --screenTop:#151922;
+  --screenMid:#10141c;
+  --screenBot:#0b0e14;
+
+  --card:#141821;
+  --line:#262b36;
+
+  --text:#f1f5f9;
+  --muted:#9aa1ad;
+
+  --accent:#2563eb;
+  --success:#22c55e;
+  --danger:#ef4444;
+
+  --shadow:0 35px 90px rgba(0,0,0,.45);
+}
+
+/* PHONE SHELL */
+.bb-phone{
+  width:340px;
+  height:700px;
+  border-radius:46px;
+  background:
+    linear-gradient(180deg,var(--frameTop),var(--frameBot));
+  padding:14px;
+  position:relative;
+  box-shadow:var(--shadow);
+}
+
+/* INNER EDGE */
+.bb-phone::after{
+  content:"";
+  position:absolute;
+  inset:6px;
+  border-radius:40px;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,.05),
+    inset 0 18px 40px rgba(255,255,255,.03);
+  pointer-events:none;
+}
+
+/* NOTCH */
+.bb-notch{
+  position:absolute;
+  top:10px;
+  left:50%;
+  transform:translateX(-50%);
+  width:150px;
+  height:28px;
+  background:#000;
+  border-radius:0 0 18px 18px;
+  z-index:5;
+}
+
+/* SCREEN */
+.bb-screen{
+  height:100%;
+  border-radius:32px;
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(255,255,255,.06),
+      transparent 38%
+    ),
+    linear-gradient(
+      180deg,
+      var(--screenTop),
+      var(--screenMid) 45%,
+      var(--screenBot)
+    );
+  overflow:hidden;
+  padding:26px 16px;
+  color:var(--text);
+}"
+
+and here is the old code for the demos: " width:340px; height:700px; border-radius:46px; background:linear-gradient(180deg,#141416,#050506); padding:14px; position:relative; box-shadow:var(--shadow); } .bb-phone::after{ content:""; position:absolute; inset:6px; border-radius:40px; box-shadow:inset 0 0 0 1px rgba(255,255,255,.06); pointer-events:none; } .bb-notch{ position:absolute; top:10px; left:50%; transform:translateX(-50%); width:150px; height:28px; background:#000; border-radius:0 0 18px 18px; z-index:5; } /* SCREEN */ .bb-screen{ height:100%; border-radius:32px; background: radial-gradient(circle at top,rgba(255,255,255,.05),transparent 35%), linear-gradient(180deg,#0f1218,#0b0d12); overflow:hidden; position:relative; padding:26px 16px; color:var(--text); } /* HEADER */ .header{ display:flex; justify-content:space-between; align-items:center; font-size:14px; margin-bottom:10px; } .header span:last-child{ color:var(--muted); font-size:12px; } /* MISSED CALL ROW */ .missed-call{ display:flex; align-items:center; gap:10px; background:#141821; border:1px solid #262b36; border-radius:14px; padding:12px; font-size:13px; color:var(--text); opacity:0; transform:translateY(6px); } .missed-call.show{ animation:fade .6s ease forwards; } .missed-call .icon{ width:10px; height:10px; border-radius:50%; background:var(--danger); } .missed-call small{ color:var(--muted); font-size:12px; } /* MESSAGES */ .messages{ margin-top:14px; display:flex; flex-direction:column; gap:14px; } .bubble{ max-width:80%; padding:12px 14px; border-radius:18px; font-size:13px; line-height:1.4; opacity:0; transform:translateY(8px); } .out{ background:var(--bubble-out); align-self:flex-end; border-bottom-right-radius:6px; } .in{ background:var(--bubble-in); align-self:flex-start; border-bottom-left-radius:6px; } .bubble.show{ animation:fade .6s ease forwards; } /* BOOKING */ .booking{ margin-top:18px; background:#141821; border:1px solid #262b36; border-radius:18px; padding:18px; text-align:center; opacity:0; transform:scale(.97); } .booking.show{ animation:confirm .6s ease forwards; } .booking h4{ margin:0 0 6px; font-size:15px; font-weight:500; } .booking p{ margin:0; font-size:13px; color:var(--muted); } .badge{ margin-top:10px; display:inline-block; padding:5px 12px; border-radius:20px; background:rgba(34,197,94,.15); color:var(--success); font-size:12px; } @keyframes fade{ to{opacity:1;transform:none;} } @keyframes confirm{ to{opacity:1;transform:none;} } </style> <section class="bb-frontdesk"> <div class="bb-phone"> <div class="bb-notch"></div> <div class="bb-screen"> <div class="header"> <span>Messages</span> <span>0 unread</span> </div> <!-- MISSED CALL --> <div class="missed-call" id="missed"> <div class="icon"></div> <div> Missed call · +1 (423) 555-0184 <small>Handled automatically</small> </div> </div> <!-- MESSAGES --> <div class="messages"> <div class="bubble out" id="b1"> Hey! Sorry we missed your call — we’re on a job right now. You can book instantly using the link below. </div> <div class="bubble in" id="b2"> Just booked for Friday morning. Thanks! </div> <div class="bubble out" id="b3"> You’re all set. We’ll see you then. </div> </div> <!-- BOOKING --> <div class="booking" id="booking"> <h4>Appointment Confirmed</h4> <p>Friday · 9:00 AM<br>Confirmation sent automatically</p> <div class="badge">No action required</div> </div> </div> </div> </section> <script> (function(){ const SECTION_CLASS = ".bb-frontdesk"; const CYCLE_TIME = 16000; let timeoutRef = null; function reset(section){ section.querySelectorAll(".show").forEach(el=>{ el.classList.remove("show"); }); } function play(section){ const missed = section.querySelector("#missed"); const bubbles = [ section.querySelector("#b1"), section.querySelector("#b2"), section.querySelector("#b3") ]; const booking = section.querySelector("#booking"); reset(section); setTimeout(()=>missed?.classList.add("show"),1200); setTimeout(()=>bubbles[0]?.classList.add("show"),3800); setTimeout(()=>bubbles[1]?.classList.add("show"),6200); setTimeout(()=>bubbles[2]?.classList.add("show"),8600); setTimeout(()=>booking?.classList.add("show"),11200); } function loop(section){ play(section); timeoutRef = setTimeout(()=>loop(section), CYCLE_TIME); } function init(){ const section = document.querySelector(SECTION_CLASS); if(!section) return; if(timeoutRef){ clearTimeout(timeoutRef); timeoutRef = null; } loop(section); } /* 🚑 GHL SAFETY BOOTSTRAP */ setTimeout(init, 1200); /* 👀 Restart when section becomes visible */ const observer = new IntersectionObserver(entries=>{ entries.forEach(entry=>{ if(entry.isIntersecting){ init(); } }); },{ threshold:0.4 }); setTimeout(()=>{ const section = document.querySelector(SECTION_CLASS); if(section) observer.observe(section); },1500); })(); </script>" and "px; color:var(--text); } /* HEADER */ .header{ display:flex; justify-content:space-between; align-items:center; font-size:14px; margin-bottom:12px; } .header span:last-child{ color:var(--muted); font-size:12px; } /* CALENDAR */ .cal{ background:var(--card); border:1px solid var(--line); border-radius:18px; overflow:hidden; } .cal-top{ padding:14px; border-bottom:1px solid var(--line); font-size:13px; display:flex; justify-content:space-between; } .cal-top small{ color:var(--muted); } .cal-grid{ padding:14px; display:grid; grid-template-columns:46px 1fr; gap:12px; } .times{ display:flex; flex-direction:column; gap:14px; font-size:12px; color:var(--muted); padding-top:6px; } .slots{ position:relative; height:420px; border-radius:14px; background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.06); overflow:hidden; } .slot-line{ position:absolute; left:0; right:0; height:1px; background:rgba(255,255,255,.05); } /* EVENTS */ .event{ position:absolute; left:10px; right:10px; border-radius:14px; padding:12px; background:rgba(37,99,235,.22); border:1px solid rgba(255,255,255,.12); box-shadow:0 10px 24px rgba(0,0,0,.25); opacity:0; transform:translateY(6px); } .event strong{ display:block; font-size:13px; font-weight:600; margin-bottom:4px; } .event span{ font-size:12px; color:rgba(241,245,249,.82); } .event.show{ animation:fade .7s ease forwards; } /* BUFFER */ .buffer{ position:absolute; left:10px; right:10px; border-radius:12px; padding:10px; background:rgba(255,255,255,.05); border:1px dashed rgba(255,255,255,.18); font-size:12px; color:rgba(241,245,249,.7); opacity:0; transform:translateY(6px); } .buffer.show{ animation:fade .7s ease forwards; } /* STATUS PILLS */ .pills{ display:flex; gap:10px; margin-top:14px; } .pill{ flex:1; background:var(--card); border:1px solid var(--line); border-radius:999px; padding:10px; font-size:12px; display:flex; justify-content:center; align-items:center; gap:8px; color:var(--muted); opacity:0; transform:translateY(6px); } .pill .dot{ width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,.3); } .pill.confirm .dot{ background:var(--success); } .pill.reminder .dot{ background:var(--accent); } .pill.show{ animation:fade .7s ease forwards; } @keyframes fade{ to{opacity:1;transform:none;} } </style> <section class="bb-sched"> <div class="bb-phone"> <div class="bb-notch"></div> <div class="bb-screen"> <div class="header"> <span>Schedule</span> <span>Guardrailed</span> </div> <div class="cal"> <div class="cal-top"> <div>Today <small>3 jobs · buffers enforced</small></div> <small>Auto</small> </div> <div class="cal-grid"> <div class="times"> <div>8:00</div> <div>9:00</div> <div>10:00</div> <div>11:00</div> <div>12:00</div> <div>1:00</div> </div> <div class="slots"> <div class="slot-line" style="top:70px"></div> <div class="slot-line" style="top:140px"></div> <div class="slot-line" style="top:210px"></div> <div class="slot-line" style="top:280px"></div> <div class="slot-line" style="top:350px"></div> <div class="event" id="e1" style="top:18px;height:92px;"> <strong>Service Visit</strong> <span>8:15 – 9:30</span> </div> <div class="buffer" id="b1" style="top:120px;height:46px;"> Buffer · 30 min </div> <div class="event" id="e2" style="top:176px;height:92px;"> <strong>Install</strong> <span>10:00 – 11:15</span> </div> <div class="buffer" id="b2" style="top:278px;height:40px;"> Buffer · 20 min </div> <div class="event" id="e3" style="top:330px;height:78px;"> <strong>Follow-up</strong> <span>12:00 – 1:00</span> </div> </div> </div> </div> <div class="pills"> <div class="pill confirm" id="p1"><span class="dot"></span>Confirmation sent</div> <div class="pill reminder" id="p2"><span class="dot"></span>Reminder scheduled</div> </div> </div> </div> </section> <script> (function(){ const SECTION_CLASS = ".bb-sched"; const CYCLE_TIME = 18000; let timeoutRef = null; function reset(section){ section.querySelectorAll(".show").forEach(el=>{ el.classList.remove("show"); }); } function play(section){ const seq = [ section.querySelector("#e1"), section.querySelector("#b1"), section.querySelector("#e2"), section.querySelector("#b2"), section.querySelector("#e3"), section.querySelector("#p1"), section.querySelector("#p2") ]; reset(section); let t = 1200; seq.forEach(el=>{ setTimeout(()=>{ el?.classList.add("show"); }, t); t += 2000; // calm, controlled pacing }); } function loop(section){ play(section); timeoutRef = setTimeout(()=>loop(section), CYCLE_TIME); } function init(){ const section = document.querySelector(SECTION_CLASS); if(!section) return; if(timeoutRef){ clearTimeout(timeoutRef); timeoutRef = null; } loop(section); } /* GHL SAFE BOOTSTRAP */ setTimeout(init, 1200); /* RESTART ON VISIBILITY */ const observer = new IntersectionObserver(entries=>{ entries.forEach(entry=>{ if(entry.isIntersecting){ init(); } }); },{ threshold:0.4 }); setTimeout(()=>{ const section = document.querySelector(SECTION_CLASS); if(section) observer.observe(section); },1500); })(); </script>" and "ient(180deg,#141416,#050506); padding:14px; position:relative; box-shadow:var(--shadow); } .bb-phone::after{ content:""; position:absolute; inset:6px; border-radius:40px; box-shadow:inset 0 0 0 1px rgba(255,255,255,.06); pointer-events:none; } .bb-notch{ position:absolute; top:10px; left:50%; transform:translateX(-50%); width:150px; height:28px; background:#000; border-radius:0 0 18px 18px; z-index:5; } /* SCREEN */ .bb-screen{ height:100%; border-radius:32px; background: radial-gradient(circle at top,rgba(255,255,255,.05),transparent 35%), linear-gradient(180deg,var(--screenTop),var(--screenBot)); overflow:hidden; padding:26px 16px; color:var(--text); } /* HEADER */ .header{ display:flex; justify-content:space-between; align-items:center; font-size:14px; margin-bottom:14px; } .header span:last-child{ color:var(--muted); font-size:12px; } /* PIPELINE */ .pipeline{ display:flex; gap:8px; margin-bottom:16px; } .stage{ flex:1; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:10px 8px; text-align:center; font-size:12px; color:var(--muted); opacity:.4; transition:opacity .6s ease, background .6s ease; } .stage.active{ opacity:1; background:rgba(37,99,235,.22); color:var(--text); } .stage.done{ opacity:1; background:rgba(34,197,94,.22); color:var(--text); } /* JOB CARD */ .job{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px; margin-bottom:14px; opacity:0; transform:translateY(8px); } .job.show{ animation:fade .6s ease forwards; } .job h4{ margin:0 0 6px; font-size:15px; font-weight:500; } .job p{ margin:0; font-size:13px; color:var(--muted); line-height:1.4; } /* TECH HANDOFF */ .handoff{ background:#10141c; border:1px solid #222735; border-radius:18px; padding:14px; opacity:0; transform:translateY(8px); } .handoff.show{ animation:fade .6s ease forwards; } .handoff-title{ font-size:13px; color:var(--muted); margin-bottom:10px; } .handoff-card{ background:#141821; border:1px solid #262b36; border-radius:14px; padding:12px; font-size:13px; } .handoff-card strong{ display:block; font-size:14px; margin-bottom:4px; } .pill{ margin-top:10px; display:inline-flex; align-items:center; gap:8px; padding:6px 12px; border-radius:999px; background:rgba(34,197,94,.18); color:var(--success); font-size:12px; } .dot{ width:8px; height:8px; border-radius:50%; background:var(--success); } @keyframes fade{ to{opacity:1;transform:none;} } </style> <section class="bb-jobflow"> <div class="bb-phone"> <div class="bb-notch"></div> <div class="bb-screen"> <div class="header"> <span>Job Flow</span> <span>Auto-routed</span> </div> <!-- PIPELINE --> <div class="pipeline"> <div class="stage active" id="s1">Lead</div> <div class="stage" id="s2">Booked</div> <div class="stage" id="s3">In Progress</div> <div class="stage" id="s4">Completed</div> </div> <!-- JOB DETAILS --> <div class="job" id="job"> <h4>Service Call · HVAC</h4> <p>Friday · 9:00 AM<br>123 Maple St</p> </div> <!-- TECH HANDOFF --> <div class="handoff" id="handoff"> <div class="handoff-title">Sent to technician</div> <div class="handoff-card"> <strong>Assigned Job</strong> Location, time, notes, and contact details delivered automatically. </div> <div class="pill"> <span class="dot"></span> Tech has everything needed </div> </div> </div> </div> </section> <script> (function(){ const SECTION_CLASS = ".bb-jobflow"; const CYCLE_TIME = 12000; let timeoutRef = null; function reset(section){ section.querySelectorAll(".active, .done, .show").forEach(el=>{ el.classList.remove("active","done","show"); }); section.querySelector("#s1")?.classList.add("active"); } function play(section){ const s1 = section.querySelector("#s1"); const s2 = section.querySelector("#s2"); const s3 = section.querySelector("#s3"); const s4 = section.querySelector("#s4"); const job = section.querySelector("#job"); const handoff = section.querySelector("#handoff"); reset(section); setTimeout(()=>job?.classList.add("show"),1200); setTimeout(()=>{ s1?.classList.replace("active","done"); s2?.classList.add("active"); },3000); setTimeout(()=>{ s2?.classList.replace("active","done"); s3?.classList.add("active"); },4800); setTimeout(()=>{ s3?.classList.replace("active","done"); s4?.classList.add("active"); handoff?.classList.add("show"); },6600); setTimeout(()=>{ s4?.classList.replace("active","done"); },8200); } function loop(section){ play(section); timeoutRef = setTimeout(()=>loop(section),CYCLE_TIME); } function init(){ const section = document.querySelector(SECTION_CLASS); if(!section) return; if(timeoutRef) clearTimeout(timeoutRef); loop(section); } setTimeout(init,1200); const observer = new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting) init(); }); },{threshold:0.4}); setTimeout(()=>{ const section = document.querySelector(SECTION_CLASS); if(section) observer.observe(section); },1500); })(); </script>" and " transform:translateX(-50%); width:150px; height:28px; background:#000; border-radius:0 0 18px 18px; z-index:5; } /* SCREEN */ .bb-screen{ height:100%; border-radius:32px; background: radial-gradient(circle at top,rgba(255,255,255,.05),transparent 35%), linear-gradient(180deg,var(--screenTop),var(--screenBot)); overflow:hidden; padding:26px 16px; color:var(--text); } /* HEADER */ .header{ display:flex; justify-content:space-between; align-items:center; font-size:14px; margin-bottom:14px; } .header span:last-child{ color:var(--muted); font-size:12px; } /* FLOW ROW */ .flow{ display:flex; gap:8px; margin-bottom:18px; } .step{ flex:1; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:10px 6px; text-align:center; font-size:12px; color:var(--muted); opacity:.4; transition:all .6s ease; } .step.active{ opacity:1; background:rgba(37,99,235,.22); color:var(--text); } .step.done{ opacity:1; background:rgba(34,197,94,.22); color:var(--text); } /* INVOICE CARD */ .invoice{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px; margin-bottom:14px; opacity:0; transform:translateY(8px); } .invoice.show{ animation:fade .6s ease forwards; } .invoice h4{ margin:0 0 6px; font-size:15px; font-weight:500; } .invoice p{ margin:0; font-size:13px; color:var(--muted); } /* STATUS ROW */ .statuses{ display:flex; gap:10px; margin-top:12px; } .status{ flex:1; background:#10141c; border:1px solid #222735; border-radius:12px; padding:10px; font-size:12px; color:var(--muted); text-align:center; opacity:.35; transition:all .6s ease; } .status.active{ opacity:1; color:var(--text); border-color:rgba(255,255,255,.18); } .status.sent.active{ color:var(--accent); } .status.viewed.active{ color:var(--warning); } .status.paid.active{ color:var(--success); } /* CASH SNAPSHOT */ .snapshot{ background:#10141c; border:1px solid #222735; border-radius:18px; padding:16px; margin-top:18px; opacity:0; transform:translateY(8px); } .snapshot.show{ animation:fade .6s ease forwards; } .row{ display:flex; justify-content:space-between; font-size:13px; margin-bottom:10px; } .row span:last-child{ color:var(--text); } .row.paid span:last-child{ color:var(--success); } .row.unpaid span:last-child{ color:var(--muted); } .badge{ margin-top:8px; display:inline-flex; align-items:center; gap:8px; padding:6px 12px; border-radius:999px; background:rgba(34,197,94,.18); color:var(--success); font-size:12px; } .dot{ width:8px; height:8px; border-radius:50%; background:var(--success); } @keyframes fade{ to{opacity:1;transform:none;} } </style> <section class="bb-payments"> <div class="bb-phone"> <div class="bb-notch"></div> <div class="bb-screen"> <div class="header"> <span>Payments</span> <span>Auto-collected</span> </div> <!-- FLOW --> <div class="flow"> <div class="step active" id="f1">Job Completed</div> <div class="step" id="f2">Invoice Sent</div> <div class="step" id="f3">Payment Received</div> </div> <!-- INVOICE --> <div class="invoice" id="invoice"> <h4>Invoice · Service Call</h4> <p>$420 · Sent automatically</p> <div class="statuses"> <div class="status sent" id="s1">Sent</div> <div class="status viewed" id="s2">Viewed</div> <div class="status paid" id="s3">Paid</div> </div> </div> <!-- CASH SNAPSHOT --> <div class="snapshot" id="snapshot"> <div class="row paid"> <span>Paid</span> <span>$2,140</span> </div> <div class="row unpaid"> <span>Unpaid</span> <span>$0</span> </div> <div class="badge"> <span class="dot"></span> No follow-up required </div> </div> </div> </div> </section> <script> (function(){ const SECTION_CLASS = ".bb-payments"; const CYCLE_TIME = 12000; let timeoutRef = null; function reset(section){ section.querySelectorAll(".active,.done,.show").forEach(el=>{ el.classList.remove("active","done","show"); }); section.querySelector("#f1")?.classList.add("active"); } function play(section){ const f1 = section.querySelector("#f1"); const f2 = section.querySelector("#f2"); const f3 = section.querySelector("#f3"); const invoice = section.querySelector("#invoice"); const s1 = section.querySelector("#s1"); const s2 = section.querySelector("#s2"); const s3 = section.querySelector("#s3"); const snapshot = section.querySelector("#snapshot"); reset(section); setTimeout(()=>invoice?.classList.add("show"),1200); setTimeout(()=>{ f1?.classList.replace("active","done"); f2?.classList.add("active"); s1?.classList.add("active"); },3000); setTimeout(()=>{ f2?.classList.replace("active","done"); f3?.classList.add("active"); s2?.classList.add("active"); },5000); setTimeout(()=>{ s3?.classList.add("active"); snapshot?.classList.add("show"); f3?.classList.replace("active","done"); },7000); } function loop(section){ play(section); timeoutRef = setTimeout(()=>loop(section),CYCLE_TIME); } function init(){ const section = document.querySelector(SECTION_CLASS); if(!section) return; if(timeoutRef) clearTimeout(timeoutRef); loop(section); } setTimeout(init,1200); const observer = new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting) init(); }); },{threshold:0.4}); setTimeout(()=>{ const section = document.querySelector(SECTION_CLASS); if(section) observer.observe(section); },1500); })(); </script>" and. " <!-- Reputation & Owner Alerts™ — Hyper-Realistic Phone Visual (White Background) --> <style> :root{ --bg:#ffffff; --frame:#0b0b0d; --screenTop:#0f1218; --screenBot:#0b0d12; --card:#141821; --line:#262b36; --text:#f1f5f9; --muted:#9aa1ad; --success:#22c55e; --danger:#ef4444; --shadow:0 45px 120px rgba(0,0,0,.55); } /* WHITE SECTION */ .bb-reputation{ display:flex; justify-content:center; padding:140px 0; background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,Inter,system-ui,sans-serif; } /* PHONE SHELL (IDENTICAL ACROSS SITE) */ .bb-phone{ width:340px; height:700px; border-radius:46px; background:linear-gradient(180deg,#141416,#050506); padding:14px; position:relative; box-shadow:var(--shadow); } .bb-phone::after{ content:""; position:absolute; inset:6px; border-radius:40px; box-shadow:inset 0 0 0 1px rgba(255,255,255,.06); pointer-events:none; } .bb-notch{ position:absolute; top:10px; left:50%; transform:translateX(-50%); width:150px; height:28px; background:#000; border-radius:0 0 18px 18px; z-index:5; } /* SCREEN */ .bb-screen{ height:100%; border-radius:32px; background: radial-gradient(circle at top,rgba(255,255,255,.05),transparent 35%), linear-gradient(180deg,var(--screenTop),var(--screenBot)); overflow:hidden; padding:26px 16px; color:var(--text); } /* HEADER */ .header{ display:flex; justify-content:space-between; align-items:center; font-size:14px; margin-bottom:14px; } .header span:last-child{ color:var(--muted); font-size:12px; } /* SPLIT PATH */ .paths{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:16px; } .path{ background:var(--card); border:1px solid var(--line); border-radius:16px; padding:12px; text-align:center; font-size:12px; color:var(--muted); opacity:0; transform:translateY(6px); } .path.show{ animation:fade .6s ease forwards; } .path.good{ border-color:rgba(34,197,94,.4); } .path.bad{ border-color:rgba(239,68,68,.4); } .indicator{ width:10px; height:10px; border-radius:50%; margin:0 auto 8px; } .good .indicator{ background:var(--success); } .bad .indicator{ background:var(--danger); } /* REVIEW / ALERT CARDS */ .card{ background:#10141c; border:1px solid #222735; border-radius:18px; padding:14px; margin-bottom:12px; opacity:0; transform:translateY(6px); } .card.show{ animation:fade .6s ease forwards; } .card h4{ margin:0 0 4px; font-size:14px; font-weight:500; } .card p{ margin:0; font-size:12px; color:var(--muted); } /* OWNER DASHBOARD */ .owner{ background:#0e1218; border:1px solid #1f2430; border-radius:18px; padding:14px; margin-top:14px; opacity:0; transform:translateY(6px); } .owner.show{ animation:fade .6s ease forwards; } .row{ display:flex; justify-content:space-between; font-size:13px; margin-bottom:10px; } .row.alert span:last-child{ color:var(--danger); } .row.ok span:last-child{ color:var(--success); } .pill{ display:inline-flex; align-items:center; gap:8px; padding:6px 12px; border-radius:999px; background:rgba(239,68,68,.15); color:var(--danger); font-size:12px; } .dot{ width:8px; height:8px; border-radius:50%; background:var(--danger); } @keyframes fade{ to{opacity:1;transform:none;} } </style> <section class="bb-reputation"> <div class="bb-phone"> <div class="bb-notch"></div> <div class="bb-screen"> <div class="header"> <span>Reputation</span> <span>Exception-only alerts</span> </div> <!-- SPLIT PATH --> <div class="paths"> <div class="path good" id="p-good"> <div class="indicator"></div> Happy customer </div> <div class="path bad" id="p-bad"> <div class="indicator"></div> Unhappy customer </div> </div> <!-- GOOD PATH --> <div class="card" id="review"> <h4>Review Request Sent</h4> <p>Public feedback requested automatically</p> </div> <!-- BAD PATH --> <div class="card" id="alert"> <h4>Private Owner Alert</h4> <p>Customer issue flagged before review</p> </div> <!-- OWNER DASHBOARD --> <div class="owner" id="owner"> <div class="row alert"> <span>Alerts</span> <span>1</span> </div> <div class="row ok"> <span>Everything else</span> <span>Handled</span> </div> <div class="pill"> <span class="dot"></span> Human decision required </div> </div> </div> </div> </section> <script> (function(){ const SECTION_CLASS = ".bb-reputation"; const CYCLE_TIME = 12000; let timeoutRef = null; function reset(section){ section.querySelectorAll(".show").forEach(el=>{ el.classList.remove("show"); }); } function play(section){ const good = section.querySelector("#p-good"); const bad = section.querySelector("#p-bad"); const review = section.querySelector("#review"); const alert = section.querySelector("#alert"); const owner = section.querySelector("#owner"); reset(section); setTimeout(()=>good?.classList.add("show"),1200); setTimeout(()=>review?.classList.add("show"),2600); setTimeout(()=>bad?.classList.add("show"),4200); setTimeout(()=>alert?.classList.add("show"),5600); setTimeout(()=>owner?.classList.add("show"),7400); } function loop(section){ play(section); timeoutRef = setTimeout(()=>loop(section),CYCLE_TIME); } function init(){ const section = document.querySelector(SECTION_CLASS); if(!section) return; if(timeoutRef) clearTimeout(timeoutRef); loop(section); } setTimeout(init,1200); const observer = new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting) init(); }); },{threshold:0.4}); setTimeout(()=>{ const section = document.querySelector(SECTION_CLASS); if(section) observer.observe(section); },1500); })(); </script>""
