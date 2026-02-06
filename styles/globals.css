@@ -654,10 +654,11 @@ p {
 
 .features-media-card .slider-embed iframe {
   position: absolute;
-  top: -21px;
-  left: -21px;
-  width: calc(100% + 42px);
-  height: 560px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
   display: block;
   background: transparent;
   transform: none;
@@ -2196,6 +2197,46 @@ p {
   border-color: rgba(245, 245, 242, 0.22);
   color: rgba(245, 245, 242, 0.75);
   font-size: 0.95rem;
+}
+
+.terms-content {
+  display: grid;
+  gap: 14px;
+  max-width: 860px;
+}
+
+.terms-content h2 {
+  margin-top: 22px;
+  margin-bottom: 8px;
+  font-size: 1.35rem;
+}
+
+.terms-content p {
+  color: var(--color-muted);
+}
+
+.terms-content a {
+  color: var(--bb-orange-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.terms-meta {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: rgba(245, 245, 242, 0.62);
+}
+
+.terms-list {
+  list-style: disc;
+  padding-left: 22px;
+  display: grid;
+  gap: 8px;
+}
+
+.terms-list li {
+  color: var(--color-muted);
+  line-height: 1.65;
 }
 
 

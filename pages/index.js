@@ -353,7 +353,7 @@ export default function HomePage() {
             <div className="features-media-card">
               <div className="slider-embed">
                 <iframe
-                  src="https://burrowbase.com/image-slider"
+                  src="/image-slider"
                   title="Burrow Base image slider"
                   loading="lazy"
                   allow="payment *"
