@@ -807,7 +807,7 @@ export default function HomePage() {
                 "Installed, Not DIY",
                 "You don’t build workflows or connect tools. We install and configure the system around how your business actually runs.",
                 (
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <svg key="installed-not-diy-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       d="M4 12h16M12 4v16"
                       fill="none"
@@ -823,7 +823,7 @@ export default function HomePage() {
                 "One System, Multiple Layers",
                 "Start with one layer or add more over time. Everything runs inside the same system—no rebuilds or migrations.",
                 (
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <svg key="one-system-multiple-layers-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       d="M6 8h12M6 12h12M6 16h12"
                       fill="none"
@@ -844,7 +844,7 @@ export default function HomePage() {
                 "Quiet by Design",
                 "If everything is handled, you hear nothing. You’re notified only when a human decision is required.",
                 (
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <svg key="quiet-by-design-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       d="M6 8c0 3.3 0 4.7 6 9 6-4.3 6-5.7 6-9a6 6 0 0 0-12 0Z"
                       fill="none"
@@ -858,7 +858,7 @@ export default function HomePage() {
                 "Built for Service Businesses",
                 "Designed specifically for contractors and service businesses—not generic startups or online brands.",
                 (
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <svg key="built-for-service-businesses-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       d="M4 16l4-8h8l4 8"
                       fill="none"
@@ -881,7 +881,7 @@ export default function HomePage() {
                 "No Software to Learn",
                 "There’s nothing to configure or manage. You just respond when needed while everything else runs automatically.",
                 (
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <svg key="no-software-to-learn-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       d="M6 7h12v10H6z"
                       fill="none"
@@ -902,7 +902,7 @@ export default function HomePage() {
                 "Grows Without Rebuilding",
                 "As your business grows, the system expands with it—without changing how you operate day to day.",
                 (
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <svg key="grows-without-rebuilding-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       d="M6 16l4-4 3 3 5-6"
                       fill="none"
