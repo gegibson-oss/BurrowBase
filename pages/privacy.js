@@ -75,6 +75,14 @@ export default function PrivacyPage() {
             apply.
           </p>
           <p>
+            Some SMS messages may be sent by businesses that use Burrow Base
+            (our &quot;Clients&quot;) to communicate with their own customers
+            through systems we configure. In those cases, messages are intended
+            to identify the Client as the business context of the message and
+            may include a notice such as &quot;Sent via Burrow Base&quot; to
+            indicate the messaging service provider.
+          </p>
+          <p>
             SMS recipients can reply STOP to opt out and HELP for support. For
             support, contact{" "}
             <a href="mailto:grant@burrowbase.com">grant@burrowbase.com</a> or
@@ -93,16 +101,24 @@ export default function PrivacyPage() {
             (such as messaging, CRM, hosting, analytics, and payment platforms),
             and only for legitimate business purposes.
           </p>
+          <p>
+            When Clients use Burrow Base to message their own customers, we may
+            process end-customer contact information and communication data to
+            deliver those workflows. Clients are responsible for obtaining any
+            required permissions and providing any required notices to their
+            customers.
+          </p>
           <h2>6. No Third-Party Messaging or Lead Sharing</h2>
           <p>
             Burrow Base does not sell, rent, share, or transfer personal
             information, phone numbers, or SMS consent to third parties.
           </p>
           <p>
-            We do not send SMS messages on behalf of other businesses,
-            affiliates, partners, or clients, and we do not engage in
-            third-party lead generation, list purchasing, list sharing, or
-            multi-level marketing (MLM) activities.
+            Burrow Base may operate messaging workflows for Clients to send SMS
+            communications to their own customers through systems we configure.
+            We do not use purchased lists, and we do not engage in third-party
+            lead generation, list purchasing, list sharing, or multi-level
+            marketing (MLM) activities.
           </p>
           <p>
             No mobile information will be shared with third parties or

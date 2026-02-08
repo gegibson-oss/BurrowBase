@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PricingPage() {
   return (
     <div className="page">
@@ -26,13 +28,9 @@ export default function PricingPage() {
               <li>Issue routing for low ratings</li>
               <li>Reviews-only dashboard</li>
             </ul>
-            <a
-              href="https://links.burrowbase.com/payment-link/697594d2c80eaf55228875f8"
-              className="button button-primary"
-              rel="noreferrer"
-            >
+            <Link href="/start" className="button button-primary">
               Start Free
-            </a>
+            </Link>
           </div>
 
           <div className="card card-outline">
@@ -55,13 +53,9 @@ export default function PricingPage() {
         <div className="container">
           <h2>Start small. Expand later.</h2>
           <div className="cta-row">
-            <a
-              href="https://links.burrowbase.com/payment-link/697594d2c80eaf55228875f8"
-              className="button button-primary"
-              rel="noreferrer"
-            >
+            <Link href="/start" className="button button-primary">
               Start Free
-            </a>
+            </Link>
           </div>
         </div>
       </section>

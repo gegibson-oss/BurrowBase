@@ -92,6 +92,18 @@ export default function TermsPage() {
               recipient.
             </li>
             <li>
+              Only upload or provide end-customer phone numbers and contact
+              information that were collected lawfully and with the required
+              permissions for the intended communication method.
+            </li>
+            <li>
+              Maintain reasonable records of consent (for example, a copy of a
+              form, intake agreement language, or other proof) and honor opt-out
+              requests. If an end customer revokes consent or opts out, you are
+              responsible for ensuring no further messages are sent to that
+              end customer.
+            </li>
+            <li>
               Use our services in compliance with applicable laws, carrier
               rules, and industry standards, including CTIA and A2P 10DLC
               requirements.
@@ -118,6 +130,30 @@ export default function TermsPage() {
             By opting in to receive text messages from Burrow Base or from our
             clients through systems we configure, you consent to receive SMS
             communications related to:
+          </p>
+          <p>
+            When a business that uses Burrow Base (a &quot;Client&quot;) sends
+            messages to its customers through systems we configure, the message
+            content is intended to identify the Client as the business context
+            of the message and may include a notice such as &quot;Sent via
+            Burrow Base&quot; to indicate the messaging service provider.
+            Clients are responsible for obtaining consent from their customers
+            before any SMS is sent.
+          </p>
+          <p>
+            By using the Services, you authorize Burrow Base to transmit SMS
+            messages to your end customers on your behalf using the sender
+            identity information you provide (such as your business name and an
+            assigned phone number). You remain responsible for the content,
+            timing, and legality of the messages sent to your end customers,
+            including any customized messaging you enable.
+          </p>
+          <p>
+            Burrow Base may rely on your representations regarding consent and
+            does not independently verify consent by default. We may suspend
+            messaging for accounts that appear to be sending messages without
+            valid consent or that receive repeated spam or compliance
+            complaints.
           </p>
           <p>
             Customers opt in via job intake forms, online booking or contact
